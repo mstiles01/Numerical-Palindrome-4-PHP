@@ -47,7 +47,7 @@ if(is_string($num) == true || $num < 0) {
                 }
             }
             if($subtract > $adding ) {
-                return $subtract;
+                return $adding_num;
             } else {
                 return $sub_num;
             }
