@@ -46,7 +46,6 @@ if(is_string($num) == true || $num < 0) {
                     $num_for_sub--;
                 }
             }
-            echo $sub_num;
             if($subtract > $adding ) {
                 return $subtract;
             } elseif ($subtract < $adding) {
